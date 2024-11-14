@@ -1,0 +1,50 @@
+
+
+{% load static %}
+
+<div class="card">
+    <div class="card-body login-card-body">
+        <p class="login-box-msg">Verify your Email</p>
+
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+
+        <form action="" method="post">
+
+            {% csrf_token %}
+
+            <div class="input-group mb-0">
+                {% comment %} <input type="email" class='form-control' placeholder="Email" name="email" required> {% endcomment %}
+                {{ form.email }}
+                <div class="input-group-append">
+                    <div class="input-group-text">
+                        <span class="fas fa-envelope"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- /.col -->
+                <div class="col-4">
+                    <br><button type="submit" class="btn btn-primary btn-sm">Send</button>
+                </div>
+                <!-- /.col -->
+            </div>
+        </form>
+
+
+        <p class="mb-1">
+            <a href="{% url 'login' %}">Already have an account?</a>
+        </p>
+        <p class="mb-0">
+            <a href="{% url 'signup' %}" class="text-center">Register a new account</a>
+        </p>
+    </div>
+    <!-- /.login-card-body -->
+</div>
+        
