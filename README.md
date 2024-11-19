@@ -34,3 +34,4 @@
 ### Want to learn Python & Django?
 
 [Python Tutorial](https://github.com/wilfredpine/Python-Tutorial)
+[YouTube](https://www.youtube.com/@confired-official/)
