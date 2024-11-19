@@ -21,3 +21,16 @@
 - email verification
 - forgot password
 - multiple user role validation
+
+### Installation
+
+- clone
+- open terminal
+- create virtual environment
+- install `requirements.txt`
+- `cd django-auth-system`
+- run the project
+
+### Want to learn Python & Django?
+
+[Python Tutorial](https://github.com/wilfredpine/Python-Tutorial)
