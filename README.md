@@ -42,6 +42,14 @@
 
 Following [wilfredpine](https://github.com/wilfredpine/)
 
-Starred & Forked [lavalust-auth-system](https://github.com/wilfredpine/django-auth-system)
+Starred & Forked [django-auth-system](https://github.com/wilfredpine/django-auth-system)
 
 Subscribe at [confired-official](https://www.youtube.com/@confired-official/)
+
+## Learn more?
+
+[laravel11-auth-system](https://github.com/wilfredpine/laravel11-auth-system)
+
+[expressjs-auth-system](https://github.com/wilfredpine/expressjs-auth-system)
+
+[lavalust-auth-system](https://github.com/wilfredpine/lavalust-auth-system)
