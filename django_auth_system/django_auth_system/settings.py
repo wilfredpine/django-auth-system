@@ -30,7 +30,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # ----------------------
 # Debug Settings
 # ----------------------
-DEBUG = os.getenv('DEBUG')
+debug_env = os.getenv('DEBUG', 'false')  # Default to 'false' if DEBUG is not set
+DEBUG = debug_env.lower() in ['true', '1', 'yes'] # Convert to boolean
 
 # -------------------
 # Allowed Hosts
